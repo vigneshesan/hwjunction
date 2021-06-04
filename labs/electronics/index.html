@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HWjunction | A one-stop hackspace for full-spectrum hardware innovation</title>
+  <link rel="icon" href="../img/logo1.png">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/animate.min.css" rel="stylesheet">
+  <link href="../fonts/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/lightbox.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styl.css">
+  <link rel="stylesheet" href="../css/default.css">
+  <link rel="stylesheet" href="../css/green.css">
+  <link rel="stylesheet" href="../css/hover.css">
+  <style>
+    .button {
+      background: transparent;
+      background-color: white;
+      color: rgb(240, 90, 34);
+      cursor: pointer
+    }
+
+    #con:hover {
+      background-color: rgb(240, 90, 34);
+      border-color: rgb(240, 90, 34)
+    }
+  </style>
+</head>
+
+<body>
+  <header id="header">
+    <div class="header-inner navbar-fixed-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-sm-12 col-xs-12">
+            <div class="logo"> <a href="../"><img src="../images/logo2.png" alt="HW junction" /></a></div>
+          </div>
+          <div class="col-md-10 col-sm-12 col-xs-12">
+            <div class="nav-area">
+              <nav class="mainmenu">
+                <div class="mobile-nav"></div>
+                <div class="collapse navbar-collapse">
+                  <ul class="nav navbar-nav">
+                    <li>
+                      <ul class="sub-menu">
+                        <li><a style="font-weight:60;" href="#dtm">Test & Measurement Equipment</a></li>
+                        <li><a style="font-weight:60;" href="#rf">RF Design and Testing</a></li>
+                        <li><a style="font-weight:60;" href="#workbench">Work Bench</a></li>
+                        <li><a style="font-weight:60;" href="#hwjunction">HWjunction Starter Kits</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#labs" style="font-weight:60;">Labs&nbsp;<i class="glyphicon glyphicon-menu-down"></i></a>
+                      <ul class="sub-menu">
+                        
+                        <li><a href="../iot/" style="font-weight:60;">IoT</a></li>
+                        <li><a href="../robotics/" style="font-weight:60;text-transform: uppercase;">Robotics</a></li>
+                        <li><a href="../drone/" style="font-weight:60;text-transform: uppercase;">Drone</a></li>
+                        <li><a href="../ni/" style="font-weight:60;text-transform: uppercase;">NI Prototyping</a></li>
+                        <li><a href="../lorawan/" style="font-weight:60;text-transform: uppercase;">LoRAWAN</a></li>
+                        <li><a href="../dfab/" style="font-weight:60;text-transform: uppercase;">DFAB</a></li>
+                        <li><a href="../aiml/" style="font-weight:60;text-transform: uppercase;">AI/ML</a></li>
+                        <li><a href="../arvr/" style="font-weight:60;text-transform: uppercase;">AR/VR Studio</a></li>
+                        <li><a href="../app/" style="font-weight:60;text-transform: uppercase;">App Studio</a></li>
+                      </ul>
+                    </li>
+                   
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="item active"> <video src="../video/ele.mp4" style="width: 100vw;" autoplay="true" loop="true"></video>
+        <div class="caption">
+          <center><img class="img-responsive animated fadeInRightBig" src="../images/icons/ico1_copy.png" style="width: 40vw;"></center><a
+            data-scroll class="btn btn-start animated fadeInUpBig" id="con" href="#hi">EXPLORE</a>
+        </div>
+      </div>
+    </div> <a class="left-control" id="con" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left" style="color:#fff;"></i></a>
+    <a class="right-control" id="con" href="#home-slider" data-slide="next"><i class="fa fa-angle-right" style="color:#fff;"></i></a>
+    <a id="tohash" href="#hi"><i class="fa fa-angle-down"></i></a>
+  </div>
+  <br>
+  <div class="container">
+    <section id="lab">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="caption">
+            <h2></h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-md-3">
+            <a href="#dtm" class="thumbnail" style="width:100%;height:30%;margin-left:-40px;">
+              <img src="1ico.jpg" class="img-rounded img-responsive">
+              <div class="caption" style="text-align:center;">
+                <h4>Test & Measurement Equipment</h4>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <a href="#rf" class="thumbnail" style="width:100%;height:30%;margin-left:-40px;">
+              <img src="13ico.jpg" class="img-rounded img-responsive">
+              <div class="caption" style="text-align:center;">
+                <h4>RF Design & <br> Testing</h4>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <a href="#workbench" class="thumbnail" style="width:100%;height:30%;margin-left:-40px;">
+              <img src="15ico.jpg" class="img-rounded img-responsive">
+              <div class="caption" style="text-align:center;">
+                <h4>Electronics <br>Workbench</h4>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <a href="#hwjunction" class="thumbnail" style="width:100%;height:30%;margin-left:-40px;">
+              <img src="kitico.jpg" class="img-rounded img-responsive">
+              <div class="caption" style="text-align:center;">
+                <h4>HWjunction Starter <br> Kits</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="container" id="hi">
+    <div class="row">
+      <div class="col-md-6 wow fadeInUp"></div>
+      <div class="col-md-6 wow fadeInUp">
+        <div class="section-title" style="padding-top:90px; margin-left:-90%;"></div>
+      </div>
+    </div>
+    <div id="dtm">
+      <h2 style="color:rgb(245,130,3);background:#f5f5f5;padding-left:2%;padding:8px;" class="wow fadeInUp">Test &
+        Measurement Equipment</h2>
+      <div class="sideBar"> <a href="../images/Sck1.jpg" data-lightbox="mygallery">HWjunction Starter Kits</a> <a href="../images/Sck2.jpg"
+          data-lightbox="mygallery" style="visibility: hidden"></a> <a href="../images/Sck3.jpg" data-lightbox="mygallery"
+          style="visibility: hidden"></a> <a href="../images/Sck4.jpg" data-lightbox="mygallery" style="visibility: hidden"></a></div>
+      <div id="scope">
+        <h3 style="color:rgb(245,130,3);padding-left:2%;" class="wow fadeInLeft"> <span style="color:rgb(65,64,66);">Digital
+            Oscilloscope</span></h3>
+        <div class="hr wow fadeInRight"></div>
+        <div class="row">
+          <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <div class="thumbnail"> <a data-toggle="modal" data-target="#DSO-X2002A"> <img src="1.jpg" style="width:200px;"
+                  alt=""> </a>
+              <div class="caption">
+                <h4>Digital Storage Oscilloscope 2 Channel</h4>
+                <p>Manufacturer : <a href="https://www.keysight.com/en/pdx-x201827-pn-DSOX2002A/oscilloscope-70-mhz-2-analog-channels?cc=IN&lc=eng"
+                    target="_blank">KEYSIGHT</a></p>
+                <p>Model Number : <a href="https://www.keysight.com/en/pdx-x201827-pn-DSOX2002A/oscilloscope-70-mhz-2-analog-channels?cc=IN&lc=eng"
+                    target="_blank">DSO-X2002A</a></p>
+                <p>#3</p><br> <a class="button" data-toggle="modal" data-target="#DSO-X2002A">Spec & Applications <i
+                    class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="DSO-X2002A" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h3 class="modal-title" style="color:rgb(245,130,3);">Digital Storage Oscilloscope 2 Channel</h3>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p style="color:rgb(245,130,3);">Specifications</p>
+                      <p style="padding-left:5%;">
+                        <li>70 MHz</li>
+                        <li>2 analog channels</li>
+                        <li>8.5-inch WVGA display</li>
+                        <li>1 Mpts memory</li>
+                        <li>50,000 wfms/s update rate</li>
+                      </p>
+                    </div>
+                    <div class="col-md-6"> <img src="1.jpg" style="width:200px;" alt=""></div>
+                  </div>
+                  <p style="color:rgb(245,130,3);">Applications</p>
+                  <p style="padding-left:5%;text-align:justify;">
+                    <li>Line-power harmonics analysis.</li>
+                    <li>Characterize and debug signal jitter</li>
+                    <li>Clock-to-data and datastream analysis.</li>
+                    <li>Impedance values measurement in transmission cables</li>
+                    <li>Sensor siganl pattern analysis</li>
+                    <li>Digital pattern analysis in GPIOs</li>
+                  </p>
+                </div>
+                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="1000ms">
+            <div class="thumbnail"> <a data-toggle="modal" data-target="#DSO-2004A"> <img src="2.jpg" style="width:200px;"
+                  alt=""> </a>
+              <div class="caption">
+                <h4>Digital Storage Oscilloscope 4 Channel</h4>
+                <p>Manufacturer : <a href="https://www.keysight.com/en/pdx-x201829-pn-DSOX2004A/oscilloscope-70-mhz-4-analog-channels?cc=IN&lc=eng"
+                    target="_blank">KEYSIGHT</a></p>
+                <p>Model Number : <a href="https://www.keysight.com/en/pdx-x201829-pn-DSOX2004A/oscilloscope-70-mhz-4-analog-channels?cc=IN&lc=eng"
+                    target="_blank">DSO-2004A</a></p>
+                <p>#1</p><br> <a class="button" data-toggle="modal" data-target="#DSO-2004A">Spec & Applications <i
+                    class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="DSO-2004A" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h3 class="modal-title" style="color:rgb(245,130,3);">Digital Storage Oscilloscope 4 Channel</h3>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p style="color:rgb(245,130,3);">Specifications</p>
+                      <p style="padding-left:5%;">
+                        <li>70 MHz</li>
+                        <li>4 analog channels</li>
+                        <li>8.5-inch WVGA display</li>
+                        <li>1 Mpts memory</li>
+                        <li>50,000 wfms/s update rate</li>
+                      </p>
+                    </div>
+                    <div class="col-md-6"> <img src="2.jpg" style="width:200px;" alt=""></div>
+                  </div>
+                  <p style="color:rgb(245,130,3);">Applications</p>
+                  <p style="padding-left:5%;text-align:justify;">
+                    <li>Line-power harmonics analysis.</li>
+                    <li>Characterize and debug signal jitter</li>
+                    <li>Clock-to-data and datastream analysis.</li>
+                    <li>Impedance values measurement in transmission cables</li>
+                    <li>Sensor siganl pattern analysis</li>
+                    <li>Digital pattern analysis in GPIOs</li>
+                    <li>Concurrent digital pattern analysis upto 4 channels</li>
+                  </p>
+                </div>
+                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="1500ms">
+            <div class="thumbnail"> <a data-toggle="modal" data-target="#MSOX4054A"> <img src="3.jpg" style="width:200px;"
+                  alt=""> </a>
+              <div class="caption">
+                <h4>Mixed Signal Oscilloscope</h4>
+                <p>Manufacturer : <a href="https://www.keysight.com/en/pdx-x201940-pn-MSOX4054A/mixed-signal-oscilloscope-500-mhz-4-analog-plus-16-digital-channels?cc=IN&lc=eng&state=0"
+                    target="_blank">KEYSIGHT</a></p>
+                <p>Model Number : <a href="https://www.keysight.com/en/pdx-x201940-pn-MSOX4054A/mixed-signal-oscilloscope-500-mhz-4-analog-plus-16-digital-channels?cc=IN&lc=eng&state=0"
+                    target="_blank">MSOX-4054A</a></p>
+                <p>#1</p><br> <a class="button" data-toggle="modal" data-target="#MSOX4054A">Spec & Applications <i
+                    class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="MSOX4054A" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h3 class="modal-title" style="color:rgb(245,130,3);">Mixed Signal Oscilloscope</h3>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p style="color:rgb(245,130,3);">Specifications</p>
+                      <p style="padding-left:5%;">
+                        <li>500 MHz</li>
+                        <li> 4 analog channels & 16 digital channels</li>
+                        <li> 12.1-inch capacitive touch screen</li>
+                        <li> Zone touch triggering</li>
+                        <li> 4 Mpts memory</li>
+                        <li> 1,000,000 wfms/s update rate</li>
+                      </p>
+                    </div>
+                    <div class="col-md-6"> <img src="3.jpg" style="width:200px;" alt=""></div>
+                  </div>
+                  <p style="color:rgb(245,130,3);">Applications</p>
+                  <p style="padding-left:5%;text-align:justify;">
+                    <li>FPGA and ASIC logic circuit analysis</li>
+                    <li> RF testing</li>
+                    <li> Protocol Analysis</li>
+                    <li> Embedded Protocol testing</li>
+                    <li> Clock signal synchronisation testing in ICs.</li>
+                  </p>
+                </div>
+                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <div class="thumbnail"> <a data-toggle="modal" data-target="#MDO4024C"> <img src="4.jpg" style="width:200px;"
+                  alt=""></a>
+              <div class="caption">
+                <h4>Mixed Domain Oscilloscope</h4>
+                <p>Manufacturer : <a href="https://in.tek.com/oscilloscope/mdo4000c-mixed-domain-oscilloscope" target="_blank">TECHKTRONIC</a></p>
+                <p>Model Number : <a href="https://in.tek.com/oscilloscope/mdo4000c-mixed-domain-oscilloscope" target="_blank">MDO4024C</a></p>
+                <p>#1</p><br> <a class="button" data-toggle="modal" data-target="#MDO4024C">Spec & Applications <i
+                    class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="MDO4024C" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h3 class="modal-title" style="color:rgb(245,130,3);">Mixed Domain Oscilloscope</h3>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p style="color:rgb(245,130,3);">Specifications</p>
+                      <p style="padding-left:5%;">
+                        <li>125 trigger combinations in the time and frequency domains</li>
+                        <li> 20 Mpoint record length with Wave Inspector</li>
+                        <li> Hardware enables spectrum analysis</li>
+                        <li> 200MHz analog Bandwidth</li>
+                        <li> 2.5GS/s sampling rate</li>
+                      </p>
+                    </div>
+                    <div class="col-md-6"> <img src="4.jpg" style="width:200px;" alt=""></div>
+                  </div>
+                  <p style="color:rgb(245,130,3);">Applications</p>
+                  <p style="padding-left:5%;text-align:justify;">
+                    <li> Interference testing for EMC standrd</li>
+                    <li> RF Design and testing</li>
+                    <li> CAN protocol analysis in Automobile power train</li>
+                    <li> Radio spectrum analysis in ISM band Devices</li>
+                    <li> Signal strength measuerment in M2M communication</li>
+                    <li> FFT signal interpretation for mixed domain analysis.</li>
+                  </p>
+                </div>
+                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <h3 style="color:rgb(245,130,3);padding-left:2%;" class="wow fadeInLeft"> <span style="color:rgb(65,64,66);">Testing
+            Equipment</span></h3>
+        <div class="hr wow fadeInRight"></div>
+        <div class="row">
+          <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <div class="thumbnail"> <a data-toggle="modal" data-target="#GPS-4303"> <img src="5.jpg" style="width:200px;"
+                  alt=""></a>
+              <div class="caption">
+                <h4>Linear DC Power supply</h4>
+                <p>Manufacturer : <a href="http://www.gwinstek.com/en-global/products/DC_Power_Supply/Multiple_Channel_DC_Power_Supplies/GPS-x303"
+                    target="_blank">GW INSTEK</a></p>
+                <p>Model Number : <a href="http://www.gwinstek.com/en-global/products/DC_Power_Supply/Multiple_Channel_DC_Power_Supplies/GPS-x303"
+                    target="_blank">GPS-4303</a></p>
+                <p>#9</p><br> <a class="button" data-toggle="modal" data-target="#GPS-4303">Spec & Applications <i
+                    class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="GPS-4303" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h3 class="modal-title" style="color:rgb(245,130,3);">Linear DC Power supply</h3>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p style="color:rgb(245,130,3);">Specifications</p>
+                      <p style="padding-left:5%;">
+                        <li> 4 Independent Isolated Output</li>
+                        <li> Four 3 Digits LED Displays</li>
+                        <li> 0.01% Load and Line Regulation</li>
+                        <li> Low Ripple and Noise</li>
+                      </p>
+                    </div>
+                    <div class="col-md-6"> <img src="5.jpg" style="width:200px;" alt=""></div>
+                  </div>
+                  <p style="color:rgb(245,130,3);">Applications</p>
+                  <p style="padding-left:5%;text-align:justify;">
+                    <li>Load Pattern Analysis in analog devices</li>
+                    <li> High precision adjustable output voltage and current</li>
+                    <li> Power adaptor designing</li>
+                    <li> SBC and MCU power I/O threshold testing</li>
+                  </p>
+                </div>
+                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="1000ms">
+            <div class="thumbnail"> <a data-toggle="modal" data-target="#E3631A"> <img src="6.jpg" style="width:170px;"
+                  alt=""></a>
+              <div class="caption">
+                <h4>Triple output Power supply</h4>
+                <p>Manufacturer : <a href="https://www.keysight.com/en/pd-836433-pn-E3631A/80w-triple-output-power-supply-6v-5a-25v-1a?nid=-35721.384004&cc=IN&lc=eng"
+                    target="_blank">KEYSIGHT</a></p>
+                <p>Model Number : <a href="https://www.keysight.com/en/pd-836433-pn-E3631A/80w-triple-output-power-supply-6v-5a-25v-1a?nid=-35721.384004&cc=IN&lc=eng"
+                    target="_blank">E3631A</a></p>
+                <p>#1</p><br> <a class="button" data-toggle="modal" data-target="#E3631A">Spec & Applications <i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="E3631A" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h3 class="modal-title" style="color:rgb(245,130,3);">Triple output Power supply</h3>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p style="color:rgb(245,130,3);">Specifications</p>
+                      <p style="padding-left:5%;">
+                        <li>Single and triple output</li>
+                        <li> 80 W to 200 W output power</li>
+                        <li> Dual range output</li>
+                      </p>
+                    </div>
+                    <div class="col-md-6"> <img src="6.jpg" style="width:170px;" alt=""></div>
+                  </div>
+                  <p style="color:rgb(245,130,3);">Applications</p>
+                  <p style="padding-left:5%;text-align:justify;">
+                    <li>Open frame power supply for medical diagnosis devices</li>
+                    <li> AC-DC Chassis mount testing in robotics</li>
+                    <li> EMC maintainence in antenna designing & testing</li>
+                  </p>
+                </div>
+                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="1500ms">
+            <div class="thumbnail"> <a data-toggle="modal" data-target="#33500B"> <img src="7.png" style="width:140px;"
+                  alt=""></a>
+              <div class="caption">
+                <h4>Signal Generator</h4>
+                <p>Manufacturer : <a href="https://www.testequity.com/products/4586/" target="_blank">KEYSIGHT</a></p>
+                <p>Model Number : <a href="https://www.testequity.com/products/4586/" target="_blank">33500B</a></p>
+                <p>#1</p><br> <a class="button" data-toggle="modal" data-target="#33500B">Spec & Applications <i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="33500B" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h3 class="modal-title" style="color:rgb(245,130,3);">Signal Generator</h3>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p style="color:rgb(245,130,3);">Specifications</p>
+                      <p style="padding-left:5%;">
+                        <li>Up to 30 MHz range</li>
+                        <li> Amp ranges(Vpp): 1 mV to 10 V</li>
+                        <li> Sampling rate: 250 Mega sample/sec</li>
+                        <li> 16-bit amplitude resolution</li>
+                        <li> 1 Mega sample/channel memory</li>
+                      </p>
+                    </div>
+                    <div class="col-md-6"> <img src="7.png" style="width:140px;" alt=""></div>
+                  </div>
+                  <p style="color:rgb(245,130,3);">Applications</p>
+                  <p style="padding-left:5%;text-align:justify;">
+                    <li>Analog circuit design for communication protocol testing</li>
+                    <li> Troubleshooting and repairing electronic and electroacoustic devices</li>
+                    <li> RF and Microwave signal generation for Machine to Machine communication.</li>
+                  </p>
+                </div>
+                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <h3 style="color:rgb(245,130,3);padding-left:2%;" class="wow fadeInLeft"> <span style="color:rgb(65,64,66);">Measurement
+            Equipment</span></h3>
+        <div class="hr wow fadeInRight"></div>
+        <div class="row">
+          <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <div class="thumbnail"> <a data-toggle="modal" data-target="#DMM7510"> <img src="8.jpg" style="width:200px;"
+                  alt=""></a>
+              <div class="caption">
+                <h4>Graphical Sampling Multimeter</h4>
+                <p>Manufacturer : <a href="https://in.tek.com/tektronix-and-keithley-digital-multimeter/dmm7510" target="_blank">Tektronix</a></p>
+                <p>Model Number : <a href="https://in.tek.com/tektronix-and-keithley-digital-multimeter/dmm7510" target="_blank">DMM7510</a></p>
+                <p>#1</p><br> <a class="button" data-toggle="modal" data-target="#DMM7510">Spec & Applications <i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="DMM7510" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h3 class="modal-title" style="color:rgb(245,130,3);">Graphical sampling Multimeter</h3>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p style="color:rgb(245,130,3);">Specifications</p>
+                      <p style="padding-left:5%;">
+                        <li> DC voltage sensitivity: 10 nV</li>
+                        <li> Current sensitivity: 1 pA</li>
+                        <li> Resistance sensitivity: 0.1 µΩ</li>
+                        <li> Internal auto-calibration</li>
+                        <li> Standard mode storage: 11 million readings</li>
+                      </p>
+                    </div>
+                    <div class="col-md-6"> <img src="8.jpg" style="width:200px;" alt=""></div>
+                  </div>
+                  <p style="color:rgb(245,130,3);">Applications</p>
+                  <p style="padding-left:5%;">
+                    <li> Measure Sleep mode drain currents for wearable devices</li>
+                    <li> Burst load current measurement in RF transmission</li>
+                    <li> Power consumption analysis in low power devices</li>
+                  </p>
+                </div>
+                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="1000ms">
+            <div class="thumbnail"> <a data-toggle="modal" data-target="#2460"> <img src="9.jpg" style="width:225px;"
+                  alt=""></a>
+              <div class="caption">
+                <h4>Digital Source Meter</h4>
+                <p>Manufacturer : <a href="https://in.tek.com/keithley-source-measure-units/keithley-smu-2400-series-sourcemeter"
+                    target="_blank">Tektronix</a></p>
+                <p>Model Number : <a href="https://in.tek.com/keithley-source-measure-units/keithley-smu-2400-series-sourcemeter"
+                    target="_blank">2460</a></p>
+                <p>#1</p><br> <a class="button" data-toggle="modal" data-target="#2460">Spec & Applications <i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="2460" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h3 class="modal-title" style="color:rgb(245,130,3);">Digital Source Meter</h3>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p style="color:rgb(245,130,3);">Specifications</p>
+                      <p style="padding-left:5%;">
+                        <li> 6½-digit resolution precision</li>
+                        <li> 1 MSamples/s digitized measurement speed</li>
+                        <li> Current rating: 10nA to 7A DC</li>
+                        <li> Voltage rating: 200mV to 200V</li>
+                        <li> Power rating: 100W DC to 1000W</li>
+                      </p>
+                    </div>
+                    <div class="col-md-6"> <img src="9.jpg" style="width:225px;" alt=""></div>
+                  </div>
+                  <p style="color:rgb(245,130,3);">Applications</p>
+                  <p style="padding-left:5%;text-align:justify;">
+                    <li>SMPS line regulation analysis</li>
+                    <li>MOSFET/SCR switching characteristic analysis</li>
+                    <li> Laser diode (LD) production test</li>
+                    <li>Rechargeable Battery charge/Discharge cycling</li>
+                  </p>
+                </div>
+                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="1500ms">
+            <div class="thumbnail"> <a data-toggle="modal" data-target="#PA1000"> <img src="10.jpg" style="width:200px;"
+                  alt=""></a>
+              <div class="caption">
+                <h4>Power analyzer</h4>
+                <p>Manufacturer : <a href="https://in.tek.com/power-analyzers/pa1000" target="_blank">Tektronix</a></p>
+                <p>Model Number : <a href="https://in.tek.com/power-analyzers/pa1000" target="_blank">PA1000</a></p>
+                <p>#1</p><br> <a class="button" data-toggle="modal" data-target="#PA1000">Spec & Applications <i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="PA1000" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h3 class="modal-title" style="color:rgb(245,130,3);">Power analyzer</h3>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p style="color:rgb(245,130,3);">Specifications</p>
+                      <p style="padding-left:5%;">
+                        <li> 1 MHz bandwidth</li>
+                        <li> 5 mW standby power measurements</li>
+                        <li> Harmonic analysis to the 50th order</li>
+                      </p>
+                    </div>
+                    <div class="col-md-6"> <img src="10.jpg" style="width:200px;" alt=""></div>
+                  </div>
+                  <p style="color:rgb(245,130,3);">Applications</p>
+                  <p style="padding-left:5%;text-align:justify;padding-left:5%;">
+                    <li>Electro magnetic interference analysis</li>
+                    <li>Testing energy consumption and standby power for household equiment</li>
+                    <li>Regulatory standard harmonic analysis for SMPS</li>
+                    <li>Precise measurement of DC, AC current and voltages</li>
+                  </p>
+                </div>
+                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <div class="thumbnail"> <a data-toggle="modal" data-target="#2281S-20-6"> <img src="11.jpg" style="width:200px;"
+                  alt=""></a>
+              <div class="caption">
+                <h4>Battery simulator</h4>
+                <p>Manufacturer : <a href="https://www.tek.com/tektronix-and-keithley-dc-power-supplies/2281s" target="_blank">Tektronix</a></p>
+                <p>Model Number : <a href="https://www.tek.com/tektronix-and-keithley-dc-power-supplies/2281s" target="_blank">2281S-20-6</a></p>
+                <p>#1</p><br> <a class="button" data-toggle="modal" data-target="#2281S-20-6">Spec & Applications <i
+                    class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="2281S-20-6" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h3 class="modal-title" style="color:rgb(245,130,3);">Battery simulator</h3>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p style="color:rgb(245,130,3);">Specifications</p>
+                      <p style="padding-left:5%;">
+                        <li>Up to 14 Cells Load</li>
+                        <li> 20 V Battery voltage</li>
+                        <li> Internal resistance 100 Ω</li>
+                        <li> 1 mV voltage setting resolution</li>
+                        <li> 10 nA resolution on the lowest current measurement range</li>
+                      </p>
+                    </div>
+                    <div class="col-md-6"> <img src="11.jpg" style="width:200px;" alt=""></div>
+                  </div>
+                  <p style="color:rgb(245,130,3);">Applications</p>
+                  <p style="padding-left:5%;text-align:justify;">
+                    <li> Source current and sink current analysis in Load</li>
+                    <li> Battery charing analysis</li>
+                    <li> Battery discharging analysis</li>
+                    <li> Mobile/Laptop/bike/car Battery Charging and Discharging pattern analysis.</li>
+                  </p>
+                </div>
+                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="rf">
+      <div id="scope">
+        <h2 style="color:rgb(245,130,3);background:#f5f5f5;padding-left:2%;padding:8px;" class="wow fadeInUp">RF Design
+          & Test Equipment</h2><br>
+        <div class="row">
+          <h3 style="color:rgb(245,130,3);padding-left:2%;" class="wow fadeInLeft"> <span style="color:rgb(65,64,66);">RF
+              Analyser</span></h3>
+          <div class="hr wow fadeInRight"></div>
+          <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <div class="thumbnail"> <a data-toggle="modal" data-target="#TTR503A"> <img src="12.jpg" style="width:200px;"
+                  alt=""></a>
+              <div class="caption">
+                <h4>Vector Network Analyser</h4>
+                <p>Manufacturer : <a href="https://in.tek.com/datasheet/vector-network-analyzers" target="_blank">Tektronix</a></p>
+                <p>Model Number : <a href="https://in.tek.com/datasheet/vector-network-analyzers" target="_blank">TTR503A</a></p>
+                <p>#1</p><br> <a class="button" data-toggle="modal" data-target="#TTR503A">Spec & Applications <i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="TTR503A" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h3 class="modal-title" style="color:rgb(245,130,3);">Vector Network Analyser</h3>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p style="color:rgb(245,130,3);">Specifications</p>
+                      <p style="padding-left:5%;">
+                        <li> 100 kHz to 6 GHz frequency range</li>
+                        <li> 122 dB dynamic range</li>
+                        <li> -50 to +7 dBm output power</li>
+                        <li> 0.008 dB RMS trace noise</li>
+                      </p>
+                    </div>
+                    <div class="col-md-6"> <img src="12.jpg" style="width:200px;" alt=""></div>
+                  </div>
+                  <p style="color:rgb(245,130,3);">Applications</p>
+                  <p style="padding-left:5%;text-align:justify;">
+                    <li>Antenna radiation Phase center and curvature measurement
+                    <li> Millimeter-submillimeter wave analysis</li>
+                    <li> Indoor and Outdoor radar modelling</li>
+                    <li> Waveguide and Cavities setup</li>
+                    <li> Material characterisation with and without magnetic field</li>
+                  </p>
+                </div>
+                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="1000ms">
+            <div class="thumbnail"> <a data-toggle="modal" data-target="#RSA306B"> <img src="13.jpg" style="width:250px;"
+                  alt=""></a>
+              <div class="caption">
+                <h4>Spectrum Analyser</h4>
+                <p>Manufacturer : <a href="https://in.tek.com/spectrum-analyzer/rsa306" target="_blank">Tektronix</a></p>
+                <p>Model Number : <a href="https://in.tek.com/spectrum-analyzer/rsa306" target="_blank">RSA306B</a></p>
+                <p>#1</p><br> <a class="button" data-toggle="modal" data-target="#RSA306B">Spec & Applications <i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="RSA306B" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h3 class="modal-title" style="color:rgb(245,130,3);">Spectrum Analyser</h3>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p style="color:rgb(245,130,3);">Specifications</p>
+                      <p style="padding-left:5%;">
+                        <li>9 kHz to 6.2 GHz frequency range</li>
+                        <li>+20 dBm to -160 dBm measurement range</li>
+                        <li> Mil-Std 28800 Class 2 environmental</li>
+                        <li> 6.2 GHz Fast sweep</li>
+                      </p>
+                    </div>
+                    <div class="col-md-6"> <img src="13.jpg" style="width:250px;" alt=""></div>
+                  </div>
+                  <p style="color:rgb(245,130,3);">Applications</p>
+                  <p style="padding-left:5%;text-align:justify;">
+                    <li> Testing shock and vibration specificationss in harsh conditions</li>
+                    <li>Earthquake signal pattern analyses</li>
+                    <li>Open space radiation pattern analysis in mobile communications</li>
+                    <li> Radiation Pattern analysis in RF and Microwave devices</li>
+                    <li> Atmospheric noise measurement</li>
+                    <li> LoRaWAN node -140dBm analysis for range prediction</li>
+                  </p>
+                </div>
+                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="1500ms">
+            <div class="thumbnail"> <a data-toggle="modal" data-target="#16851A"> <img src="14.jpg" style="width:195px;"
+                  alt=""></a>
+              <div class="caption">
+                <h4>Logic Analyser</h4>
+                <p>Manufacturer : <a href="https://www.keysight.com/en/pd-2730652-pn-16861A/34-channel-portable-logic-analyzer?nid=-32136.1186281&cc=IN&lc=eng"
+                    target="_blank">KEYSIGHT</a></p>
+                <p>Model Number : <a href="https://www.keysight.com/en/pd-2730652-pn-16861A/34-channel-portable-logic-analyzer?nid=-32136.1186281&cc=IN&lc=eng"
+                    target="_blank">16851A</a></p>
+                <p>#1</p><br> <a class="button" data-toggle="modal" data-target="#16851A">Spec & Applications <i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="16851A" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h3 class="modal-title" style="color:rgb(245,130,3);">Logic Analyzer</h3>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p style="color:rgb(245,130,3);">Specifications</p>
+                      <p style="padding-left:5%;">
+                        <li>2.5 GHz timing capture</li>
+                        <li>128 M sampling memory</li>
+                        <li> 1.4 GHz trigger sequence speed</li>
+                        <li> 80 ps resolution (12.5 GHz) Timing</li>
+                        <li> Zoom with 256 K samples</li>
+                      </p>
+                    </div>
+                    <div class="col-md-6"> <img src="14.jpg" style="width:195px;" alt=""></div>
+                  </div>
+                  <p style="color:rgb(245,130,3);">Applications</p>
+                  <p style="padding-left:5%;text-align:justify;">
+                    <li>Correlate a large number of digital signals in single display for flow analysis in IC</li>
+                    <li> Investigate the system operation for Interrupt trigger</li>
+                    <li> Detect timing violations with clock frequency</li>
+                    <li> Trace embedded software operation</li>
+                    <li> I2C, SPI, CAN Protocol analysis in automobile</li>
+                  </p>
+                </div>
+                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="workbench">
+      <h2 style="color:rgb(245,130,3);background:#f5f5f5;padding-left:2%;padding:8px;" class="wow fadeInUp">Workbench</h2>
+      <div id="scope">
+        <h3 style="color:rgb(245,130,3);padding-left:2%;" class="wow fadeInLeft"> <span style="color:rgb(65,64,66);">Soldering
+            Station</span></h3>
+        <div class="hr wow fadeInRight"></div>
+        <div class="row">
+          <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <div class="thumbnail"> <a target="_blank" href="http://www.goot.jp/en/handakote/px-501/" style="cursor: pointer;">
+                <img src="15.jpg" style="width:280px;" alt="">
+                <div class="caption">
+                  <h4>SMD Soldering station</h4>
+                </div>
+              </a>
+              <a class="button" data-toggle="modal" data-target="#16">Spec & Applications <i class="fa fa-angle-double-right"></i></a>
+            </div>
+          </div>
+          <div class="modal fade" id="16" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h3 class="modal-title" style="color:rgb(245,130,3);">SMD Soldering</h3>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p style="color:rgb(245,130,3);">Specifications</p>
+                      <p style="padding-left:5%;">
+                        <li>Output Voltage: 110V, 220 –240V AC</li>
+                        <li>Temperature Range : 250–450°C</li>
+                        <li>85W Power Consumption</li>
+                        <li>Airflow Range: 120L/min(max.)</li>
+                        <li>Ground Resistance less than 2 ohm</li>
+                        <li> Leak Voltage less than 2 mV </li>
+                        <li>Ceramic Heater</li>
+                        <li>Newly designed ergonomic grip cover</li>
+
+                      </p>
+                    </div>
+                    <div class="col-md-6"> <img src="15.jpg" style="width:195px;" alt=""></div>
+                  </div>
+                  <p style="color:rgb(245,130,3);">Applications</p>
+                  <p style="padding-left:5%;text-align:justify;">
+                    <li>ESD design of soldering iron to protect sensitive components</li>
+                    <li>Accurate calibration.</li>
+                  </p>
+                </div>
+                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="1000ms">
+            <div class="thumbnail"> <img src="16.jpg" style="width:200px;" alt="">
+              <div class="caption">
+                <h4>Through Hole Solder</h4>
+              </div>
+              <a class="button" data-toggle="modal" data-target="#166">Spec & Applications <i class="fa fa-angle-double-right"></i></a>
+            </div>
+          </div>
+          <div class="modal fade" id="166" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h3 class="modal-title" style="color:rgb(245,130,3);">Through Hole Solder</h3>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p style="color:rgb(245,130,3);">Specifications</p>
+                      <p style="padding-left:5%;">
+                        <li>Closed loop of sensor Control Temperature</li>
+                        <li>Large power in temperature raising accuracy</li>
+                        <li>Perfect auto aegis system</li>
+                      </p>
+                    </div>
+                    <div class="col-md-6"> <img src="16.jpg" style="width:195px;" alt=""></div>
+                  </div>
+                  <p style="color:rgb(245,130,3);">Applications</p>
+                  <p style="padding-left:5%;text-align:justify;">
+                    <li>Prevent static and leakage electric to damage the PCB</li>
+                    <li>Appling all QFP and SOP type the IC to tore down to weld</li>
+
+                  </p>
+                </div>
+                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="1500ms">
+            <div class="thumbnail"> <a target="_blank" style="cursor:pointer;" href="http://www.lenseloptics.com/products/magnifiers/led-illumination-models-standard-and-semi-deluxe/">
+                <img src="17.jpg" style="width:200px;" alt="">
+                <div class="caption">
+                  <h4>Magnifier</h4>
+                </div>
+              </a>
+              <a class="button" data-toggle="modal" data-target="#1166">Spec & Applications <i class="fa fa-angle-double-right"></i></a>
+            </div>
+          </div>
+          <div class="modal fade" id="1166" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h3 class="modal-title" style="color:rgb(245,130,3);">Magnifier</h3>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p style="color:rgb(245,130,3);">Specifications</p>
+                      <p style="padding-left:5%;">
+                        <li>8W Power consumption</li>
+                        <li>60000K color temperature</li>
+                        <li>50000hrs Lamp Life</li>
+                        <li>130mm lens dia</li>
+                        <li>800 lumens output</li>
+                      </p>
+                    </div>
+                    <div class="col-md-6"> <img src="17.jpg" style="width:195px;" alt=""></div>
+                  </div>
+                  <p style="color:rgb(245,130,3);">Applications</p>
+                  <p style="padding-left:5%;text-align:justify;">
+                    <li>Shadow free lighting</li>
+                    <li>Upto 50x Zooming</li>
+                  </p>
+                </div>
+                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <div class="thumbnail"> <a target="_blank" style="cursor: pointer;" href="http://www.leisto.com/smoke-absorber/493-smoke-absorber/">
+                <img src="18.jpg" style="width:200px;" alt="">
+                <div class="caption">
+                  <h4>Smoke Absorber</h4>
+                </div>
+              </a>
+              <a class="button" data-toggle="modal" data-target="#11661">Spec & Applications <i class="fa fa-angle-double-right"></i></a>
+            </div>
+          </div>
+          <div class="modal fade" id="11661" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h3 class="modal-title" style="color:rgb(245,130,3);">Smoke Absorber</h3>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p style="color:rgb(245,130,3);">Specifications</p>
+                      <p style="padding-left:5%;">
+                        <li>Made of non-sloughing static dissipative conductive material</li>
+                        <li>Standard activated carbon filter</li>
+                        <li>Absorbs up to 80 percent of the odors</li>
+                        <li>Input Voltage: 220V</li>
+                      </p>
+                    </div>
+                    <div class="col-md-6"> <img src="18.jpg" style="width:195px;" alt=""></div>
+                  </div>
+                </div>
+                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="1000ms">
+            <div class="thumbnail"> <img src="19.png" style="width:258px;" alt="">
+              <div class="caption">
+                <h4>De-solder</h4>
+              </div>
+              <a class="button" data-toggle="modal" data-target="#116611">Spec & Applications <i class="fa fa-angle-double-right"></i></a>
+            </div>
+          </div>
+          <div class="modal fade" id="116611" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h3 class="modal-title" style="color:rgb(245,130,3);">De-solder</h3>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p style="color:rgb(245,130,3);">Specifications</p>
+                      <p style="padding-left:5%;">
+                        <li>Metal Body, High Suction Power, Light Weight</li>
+                        <li>Size: 7.5 in x 0.6 in</li>
+                        <li>Powerful suction for solder removal</li>
+                      </p>
+                    </div>
+                    <div class="col-md-6"> <img src="19.png" style="width:195px;" alt=""></div>
+                  </div>
+                  <p style="color:rgb(245,130,3);">Applications</p>
+                  <p style="padding-left:5%;text-align:justify;">
+                    <li>Removal of Chip From a Expired Devices</li>
+                    <li>Dismantling Robo parts</li>
+                  </p>
+                </div>
+                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="1500ms">
+            <div class="thumbnail"> <img src="20.png" style="width:190px;" alt="">
+              <div class="caption">
+                <h4>Solder dispensor</h4>
+              </div>
+              <a class="button" data-toggle="modal" data-target="#1166116">Spec & Applications <i class="fa fa-angle-double-right"></i></a>
+            </div>
+          </div>
+          <div class="modal fade" id="1166116" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h3 class="modal-title" style="color:rgb(245,130,3);">Solder dispensor</h3>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p style="color:rgb(245,130,3);">Specifications</p>
+                      <p style="padding-left:5%;">
+                        <li>Soldering iron stand </li>
+                        <li>Sponge size: 56x36mm</li>
+                      </p>
+                    </div>
+                    <div class="col-md-6"> <img src="20.png" style="width:195px;" alt=""></div>
+                  </div>
+                  <p style="color:rgb(245,130,3);">Applications</p>
+                  <p style="padding-left:5%;text-align:justify;">
+                    <li>Portable and suitable for frequent welding</li>
+                    <li>Electronic products production line</li>
+                    <li>Precision electronic maintenance industry SMT components , plug-in element,platoon line</li>
+                    <li>PCB integrated component of desoldering maintenance work</li>
+                  </p>
+                </div>
+                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="hwjunction">
+      <h2 style="color:rgb(245,130,3);background:#f5f5f5;padding-left:2%;padding:8px;" class="wow fadeInUp">HWjunction
+        Starter Kits</h2>
+      <div id="scope"><br>
+        <div class="row">
+          <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <div class="thumbnail"> <a href="../images/Sck1.jpg" data-lightbox="gallery" style="cursor: pointer;"> <img
+                  src="../images/Sck.jpg" style="width:280px;" alt="">
+                <div class="caption">
+                  <h4 style="text-align: center;">Signal Controlling Kit</h4>
+                </div>
+              </a></div>
+          </div>
+          <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="1000ms">
+            <div class="thumbnail"> <a href="../images/Sck2.jpg" data-lightbox="gallery" style="cursor: pointer;"> <img
+                  src="../images/sak.jpg" style="width:280px;" alt="">
+                <div class="caption">
+                  <h4 style="text-align: center;">Sensors and Actuator Kit</h4>
+                </div>
+              </a></div>
+          </div>
+          <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="1500ms">
+            <div class="thumbnail"> <a style="cursor:pointer;" data-lightbox="gallery" href="../images/Sck3.jpg"> <img
+                  src="../images/ck.jpg" style="width:280px;" alt="">
+                <div class="caption">
+                  <h4 style="text-align: center;">Controller Kit</h4>
+                </div>
+              </a></div>
+          </div>
+          <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="1500ms">
+            <div class="thumbnail"> <a style="cursor:pointer;" data-lightbox="gallery" href="../images/Sck4.jpg"> <img
+                  src="../images/rk.jpg" style="width:280px;" alt="">
+                <div class="caption">
+                  <h4 style="text-align: center;">DIY Robotics Kit</h4>
+                </div>
+              </a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <section id="lab">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="caption">
+            <h2>Labs</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="thumbnail"> <a href="../iot/"> <img src="../img/icons/ico2.png" alt="">
+              <p>IoT</p>
+            </a></div>
+          <div class="thumbnail"> <a href="../lorawan/"> <img src="../img/icons/ico3.png" alt="">
+              <p>LoRaWAN</p>
+            </a></div>
+          <div class="thumbnail"> <a href="../ni/"> <img src="../img/icons/ico4.svg" alt="">
+              <p>NI</p>
+            </a></div>
+          <div class="thumbnail"> <a href="../robotics/"> <img src="../img/icons/ico5.svg" alt="">
+              <p>Robotics</p>
+            </a></div>
+          <div class="thumbnail"> <a href="../drone/"> <img src="../img/icons/ico6.png" alt="">
+              <p>Drone</p>
+            </a></div>
+          <div class="thumbnail"> <a href="../dfab/"> <img src="../img/icons/ico7.ico" alt="">
+              <p>DFab</p>
+            </a></div>
+          <div class="thumbnail"> <a href="../aiml/"> <img src="../img/icons/ico8.png" alt="">
+              <p>AI/ML</p>
+            </a></div>
+          <div class="thumbnail"> <a href="../arvr/"> <img src="../img/icons/ico9.png" alt="">
+              <p>AR/VR</p>
+            </a></div>
+          <div class="thumbnail"> <a href="../app/"> <img src="../img/icons/ico10.png" alt="">
+              <p>App</p>
+            </a></div>
+        </div>
+      </div>
+    </section>
+    <hr>
+  </div>
+
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/wow.min.js"></script>
+  <script type="text/javascript" src="../js/mousescroll.js"></script>
+  <script type="text/javascript" src="../js/smoothscroll.js"></script>
+  <script type="text/javascript" src="../js/lightbox.min.js"></script>
+  <script type="text/javascript" src="../js/main.js"></script>
+</body>
+
+</html>
