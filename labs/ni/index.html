@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HWjunction | A one-stop hackspace for full-spectrum hardware innovation</title>
+    <link rel="icon" href="../img/logo1.png">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/animate.min.css" rel="stylesheet">
+    <link href="../fonts/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/lightbox.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styl.css">
+    <link rel="stylesheet" href="../css/default.css">
+    <link rel="stylesheet" href="../css/green.css">
+    <link rel="stylesheet" href="../css/hover.css">
+    <style>.button{background:transparent;background-color:white;color:#F54720;cursor:pointer}#con:hover{background-color:rgb(240, 90, 34);;border-color:rgb(240, 90, 34)}</style>
+</head>
+
+<body>
+    <header id="header">
+        <div class="header-inner navbar-fixed-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-12 col-xs-12">
+                        <div class="logo"> <a href="../"><img src="../images/logo2.png" alt="HW junction" /></a></div>
+                    </div>
+                    <div class="col-md-10 col-sm-12 col-xs-12">
+                        <div class="nav-area">
+                            <nav class="mainmenu">
+                                <div class="mobile-nav"></div>
+                                <div class="collapse navbar-collapse">
+                                    <ul class="nav navbar-nav">
+                                        <li>
+                                            <ul class="sub-menu">
+                                                <li><a style="font-weight:60;" href="#1">RIO</a></li>
+                                                <li><a style="font-weight:60;" href="#2">WSN</a></li>
+                                                <li><a style="font-weight:60;" href="#5">PXIe</a></li>
+                                                <li><a style="font-weight:60;" href="#6">CVS</a></li>
+                                                <li><a style="font-weight:60;" href="#7">Elvis II</a></li>
+                                                <li><a style="font-weight:60;" href="#8">Stratom</a></li>
+                                                <li><a style="font-weight:60;" href="#9">USRP</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#labs" style="font-weight:60;">Labs&nbsp;<i class="glyphicon glyphicon-menu-down"></i></a>
+                                            <ul class="sub-menu">
+                                                <li><a href="../electronics/" style="font-weight:60;text-transform: uppercase;">Electronics</a></li>
+                                                <li><a href="../iot/" style="font-weight:60;">IoT</a></li>
+                                                <li><a href="../robotics/" style="font-weight:60;text-transform: uppercase;">Robotics</a></li>
+                                                <li><a href="../drone/" style="font-weight:60;text-transform: uppercase;">Drone</a></li>
+                                                <li><a href="../lorawan/" style="font-weight:60;text-transform: uppercase;">LoRAWAN</a></li>
+                                                <li><a href="../dfab/" style="font-weight:60;text-transform: uppercase;">DFAB</a></li>
+                                                <li><a href="../aiml/" style="font-weight:60;text-transform: uppercase;">AI/ML</a></li>
+                                                <li><a href="../arvr/" style="font-weight:60;text-transform: uppercase;">AR/VR
+                                                        studio</a></li>
+                                                <li><a href="../app/" style="font-weight:60;text-transform: uppercase;">App
+                                                        studio</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="item active"> <video src="../video/ni.mp4" style="width: 100vw;" autoplay="true" loop="true"></video>
+                <div class="caption">
+                    <center><img class="img-responsive animated fadeInRightBig" src="logo.png" style="width:40vw;"></center><a
+                        data-scroll class="btn btn-start animated fadeInUpBig" id="con" href="#hi">EXPLORE</a>
+                </div>
+            </div>
+        </div> <a class="left-control" id="con" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left" style="color:#fff;"></i></a>
+        <a class="right-control" id="con" href="#home-slider" data-slide="next"><i class="fa fa-angle-right" style="color:#fff;"></i></a>
+        <a id="tohash" href="#hi"><i class="fa fa-angle-down"></i></a>
+    </div>
+    <div class="container" id="hi">
+        <div class="row">
+            <div class="col-md-6 wow fadeInUp"></div>
+            <div class="col-md-6 wow fadeInUp">
+                <div class="section-title" style="padding-top:90px; margin-left:-94%;"></div>
+            </div>
+        </div>
+        <div id="1">
+            <h1 style="color:rgb(245,130,3);background:#f5f5f5;padding-left:2%;padding:8px;" class="wow fadeInUp">Reconfigurable
+                I/O (RIO)</h1>
+            <div id="scope">
+                <div class="row">
+                    <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+                        <div class="thumbnail"> <a data-toggle="modal" data-target="#DSO-X2002A"> <img src="1.jpg"
+                                    style="width:200px;" alt=""> </a>
+                            <div class="caption">
+                                <h4>myRIO Target</h4>
+                                <p>Manufacturer : <a href="https://www.ni.com/en-in/shop/select/myrio-student-embedded-device"
+                                        target="_blank">National Instruments</a></p>
+                                <p> #9</p><br> <a class="button" data-toggle="modal" data-target="#DSO-X2002A">Spec &
+                                    Applications <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="DSO-X2002A" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h3 class="modal-title" style="color:rgb(245,130,3);">myRIO Target</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p style="color:rgb(245,130,3);">Specifications</p>
+                                            <p style="padding-left:5%;">
+                                                <li>Xilinx Z-7010 processor 667 MHz (ARM Cortex A9 x2 cores 28 nm
+                                                    process NEON SIMD, VFPv3 Vector Float)</li>
+                                                <li>Memory: NV: 256 MB, DDR3 512MB, 533 MHz, 16 bits</li>
+                                                <li>Wireless: IEEE 802.11 b,g,n ISM 2.4 GHz 20 MHz</li>
+                                                <li>USB 2.0 Hi-Speed</li>
+                                                <li>2 ports of 16 Digital I/O lines</li>
+                                                <li>3 axis accelerometer</li>
+                                                <li>Max power consumption : 14 W</li>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6"> <img src="1.jpg" style="width:200px;" alt=""></div>
+                                    </div>
+                                    <p style="color:rgb(245,130,3);">Applications</p>
+                                    <p style="padding-left:5%;text-align:justify;">
+                                        <li>MXP and MSP connectors</li>
+                                        <li>Programming LABView and C</li>
+                                        <li>Can implement multiple design concepts with one device</li>
+                                    </p>
+                                </div>
+                                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+                        <div class="thumbnail"> <a data-toggle="modal" data-target="#TTR503A"> <img src="11.jpg" style="width:210px;"
+                                    alt=""></a>
+                            <div class="caption">
+                                <h4>sbRIO target</h4>
+                                <p>Manufacturer : <a href="http://www.ni.com/en-in/support/model.sbrio-9637.html"
+                                        target="_blank">National Instruments</a></p>
+                                <p>Model Number : <a href="http://www.ni.com/en-in/support/model.sbrio-9637.html"
+                                        target="_blank">sbRIO-9637</a></p>
+                                <p> #1</p><br> <a class="button" data-toggle="modal" data-target="#TTR503A">Spec &
+                                    Applications <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="TTR503A" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h3 class="modal-title" style="color:rgb(245,130,3);">sbRIO target</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p style="color:rgb(245,130,3);">Specifications</p>
+                                            <p style="padding-left:5%;">
+                                                <li>Controller features Gigabit Ethernet, CAN, USB, serial, and SDHC
+                                                    ports</li>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6"> <img src="11.jpg" style="width:250px;" alt=""></div>
+                                    </div>
+                                    <p style="color:rgb(245,130,3);">Applications</p>
+                                    <p style="padding-left:5%;text-align:justify;">
+                                        <li>NI Linux Real‑Time, user configarable FPGA</li>
+                                        <li>A user-reconfigurable FPGA</li>
+                                        <li>Designed to be easily embedded in high-volume OEM applications</li>
+                                    </p>
+                                </div>
+                                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="1500ms">
+                        <div class="thumbnail"> <a data-toggle="modal" data-target="#RS30"> <img src="13.jpg" style="width:270px;"
+                                    alt=""></a>
+                            <div class="caption">
+                                <h4>cRIO Target</h4>
+                                <p>Manufacturer : <a href="http://www.ni.com/en-in/support/model.crio-9082.html" target="_blank">National
+                                        Instruments</a></p>
+                                <p>Model Number : <a href="http://www.ni.com/en-in/support/model.crio-9082.html" target="_blank">cRIO-9082</a></p>
+                                <p> #1</p><br> <a class="button" data-toggle="modal" data-target="#RS30">Spec &
+                                    Applications <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="RS30" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title" style="color:rgb(245,130,3);">C-series Module</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p style="color:rgb(245,130,3);">Specifications</p>
+                                            <p style="padding-left:5%;">
+                                                <li>8-Slot</li>
+                                                <li>1.33 GHz Dual-Core CPU</li>
+                                                <li>2 GB DRAM</li>
+                                                <li>32 GB Storage</li>
+                                                <li>Xilinx Spartan-6 LX150 FPGA CompactRIO Controller</li>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6"> <img src="13.jpg" style="width:200px;" alt=""></div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="2000ms">
+                        <div class="thumbnail"> <a data-toggle="modal" data-target="#R"> <img src="14.jpg" style="width:140px;"
+                                    alt=""></a>
+                            <div class="caption">
+                                <h4>C-series I/O</h4>
+                                <p>Manufacturer : <a href="https://www.ni.com/en-in/shop/select/c-series-multifunction-io-module"
+                                        target="_blank">National Instruments</a></p>
+                                <p> #12</p><br> <a class="button" data-toggle="modal" data-target="#R">Spec &
+                                    Applications <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="R" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title" style="color:rgb(245,130,3);">C-series I/O</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p style="color:rgb(245,130,3);">Specifications</p>
+                                            <p style="padding-left:5%;">
+                                                <li>5 V TTL digital I/O channels</li>
+                                                <li>Analog and digital I/O</li>
+                                                <li>Single module for CompactRIO systems</li>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6"> <img src="14.jpg" style="width:200px;" alt=""></div>
+                                    </div>
+                                    <p style="color:rgb(245,130,3);">Applications</p>
+                                    <p style="padding-left:5%;text-align:justify;">
+                                        <li>General-purpose I/O module that helps system designers fit more
+                                            functionality into a single system</li>
+                                    </p>
+                                </div>
+                                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="2500ms">
+                        <div class="thumbnail"> <a data-toggle="modal" data-target="#DSO-2004A"> <img src="2.png" style="width:255px;"
+                                    alt=""> </a>
+                            <div class="caption">
+                                <h4>Starter Kit</h4>
+                                <p>Manufacturer : <a href="http://sine.ni.com/nips/cds/view/p/lang/en/nid/211721"
+                                        target="_blank">National Instruments</a></p>
+                                <p> #5</p><br> <a class="button" data-toggle="modal" data-target="#DSO-2004A">Spec &
+                                    Applications <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="DSO-2004A" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h3 class="modal-title" style="color:rgb(245,130,3);">Starter Kit</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p style="color:rgb(245,130,3);">Specifications</p>
+                                            <p style="padding-left:5%;">
+                                                <li>Barrel connector with leads</li>
+                                                <li>Assorted capacitors</li>
+                                                <li>7-segment display</li>
+                                                <li>Small DC motor (1 VDC to 3 VDC, no load speed: 6600 rpm)</li>
+                                                <li>MXP Breadboard (210-283): Breadboard expansion for NI myRIO</li>
+                                                <li>1-pin MTE cables (240-005): 5-pack MTE cables</li>
+                                                <li>Piezoelectric sensor</li>
+                                                <li>2 Hall effect sensors (latch and switch)</li>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6"> <img src="2.png" style="width:200px;" alt=""></div>
+                                    </div>
+                                    <p style="color:rgb(245,130,3);">Applications</p>
+                                    <p style="padding-left:5%;text-align:justify;">
+                                        <li>Includes sensors and components needed for basic projects</li>
+                                        <li>Devices covered in the online version of the myRIO Project Essentials Guide</li>
+                                        <li>Includes components used in myDAQ Projects for Engineering Students</li>
+                                        <li>Power connector with leads for connection to stand-alone power supplies</li>
+                                    </p>
+                                </div>
+                                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="3000ms">
+                        <div class="thumbnail"> <a data-toggle="modal" data-target="#MDO4024C"> <img src="4.png" style="width:160px;"
+                                    alt=""></a>
+                            <div class="caption">
+                                <h4>Mech.Kit</h4>
+                                <p>Manufacturer : <a href="http://sine.ni.com/nips/cds/view/p/lang/en/nid/211722"
+                                        target="_blank">National Instruments</a></p>
+                                <p> #5</p><br> <a class="button" data-toggle="modal" data-target="#MDO4024C">Spec &
+                                    Applications <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="MDO4024C" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h3 class="modal-title" style="color:rgb(245,130,3);">Mech.Kit</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p style="color:rgb(245,130,3);">Specifications</p>
+                                            <p style="padding-left:5%;">
+                                                <li>Geared motor 19:1 (includes encoder for rotation and speed, 12 V)</li>
+                                                <li>Ultrasonic range finder (accurate readings of 0 in. to 255 in. or
+                                                    6.45 m)</li>
+                                                <li>Servo motor: standard (215 degrees rotation) continuous rotation</li>
+                                                <li>Accelerometer (3 axis, digital - SPI and I2C)</li>
+                                                <li>Digilent Motor Adapter for myRIO (compatible with gear motor and
+                                                    servos)</li>
+                                                <li>Gyroscope (3 axis, digital - SPI and I2C)</li>
+                                                <li>Infrared proximity sensor (10 cm to 80 cm)</li>
+                                                <li>Ambient light sensor (SPI)</li>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6"> <img src="4.png" style="width:200px;" alt=""></div>
+                                    </div>
+                                    <p style="color:rgb(245,130,3);">Applications</p>
+                                    <p style="padding-left:5%;text-align:justify;">
+                                        <li>Includes motors, sensors, and components for teaching and implementing
+                                            mechatronics concepts</li>
+                                        <li>Designed as an add-on to the myRIO Starter Kit</li>
+                                        <li>Devices covered in the online version of the myRIO Project Essentials Guide</li>
+                                    </p>
+                                </div>
+                                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+                        <div class="thumbnail"> <a data-toggle="modal" data-target="#MSOX4054A"> <img src="3.png" style="width:150px;"
+                                    alt=""> </a>
+                            <div class="caption">
+                                <h4>Embedded Kit</h4>
+                                <p>Manufacturer : <a href="http://sine.ni.com/nips/cds/view/p/lang/en/nid/211723"
+                                        target="_blank">National Instruments</a></p>
+                                <p> #5</p><br> <a class="button" data-toggle="modal" data-target="#MSOX4054A">Spec &
+                                    Applications <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="MSOX4054A" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h3 class="modal-title" style="color:rgb(245,130,3);">Embedded Kit</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p style="color:rgb(245,130,3);">Specifications</p>
+                                            <p style="padding-left:5%;">
+                                                <li>Keypad</li>
+                                                <li>Temperature sensor (I2C)</li>
+                                                <li>Character LCD Display</li>
+                                                <li>Digital potentiometer (SPI)</li>
+                                                <li>Bluetooth interface (UART)</li>
+                                                <li>EEPROM (SPI)</li>
+                                                <li>LED matrix</li>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6"> <img src="3.png" style="width:200px;" alt=""></div>
+                                    </div>
+                                    <p style="color:rgb(245,130,3);">Applications</p>
+                                    <p style="padding-left:5%;text-align:justify;">
+                                        <li>Includes sensors, devices, and a display for teaching and implementing
+                                            embedded systems concepts</li>
+                                        <li>Designed as an add-on to the NI myRIO Starter Kit</li>
+                                        <li>Contains components with a variety of digital interfaces (SPI, I2C, UART)</li>
+                                        <li>Devices covered in the online version of the NI myRIO Project Essentials
+                                            Guide</li>
+                                </div>
+                                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="2">
+            <h1 style="color:rgb(245,130,3);background:#f5f5f5;padding-left:2%;padding:8px;" class="wow fadeInUp">Wireless
+                Sensor Network (WSN)</h1>
+            <div id="scope">
+                <div class="row">
+                    <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+                        <div class="thumbnail"> <a data-toggle="modal" data-target="#GPS-4303"> <img src="5.jpg" style="width:200px;"
+                                    alt=""></a>
+                            <div class="caption">
+                                <h4>Gateway</h4>
+                                <p>Manufacturer : <a href="http://www.ni.com/en-in/shop/select/rt-controller-with-integrated-gateway-for-wsn?modelId=125584"
+                                        target="_blank">National Instruments</a></p>
+                                <p>Model Number : <a href="http://www.ni.com/en-in/shop/select/rt-controller-with-integrated-gateway-for-wsn?modelId=125584"
+                                        target="_blank">WSN-9792</a></p>
+                                <p> #2</p><br> <a class="button" data-toggle="modal" data-target="#GPS-4303">Spec &
+                                    Applications <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="GPS-4303" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h3 class="modal-title" style="color:rgb(245,130,3);">Gateway</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p style="color:rgb(245,130,3);">Specifications</p>
+                                            <p style="padding-left:5%;">
+                                                <li>LabVIEW Real-Time Target</li>
+                                                <li>533MHz processor</li>
+                                                <li>2GB Onboard Storage</li>
+                                                <li>Integrated Web Server</li>
+                                                <li>2.4 GHz, IEEE 802.15.4 radio to communicate with NI WSN measurement
+                                                    nodes</li>
+                                                <li>Dual Ethernet ports</li>
+                                                <li>-40 to 70°C temperature rating</li>
+                                                <li>9 to 35 VDC redundant power inputs</li>
+                                                <li>Panel & DIN-Rail Mounting options</li>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6"> <img src="5.jpg" style="width:200px;" alt=""></div>
+                                    </div>
+                                    <p style="color:rgb(245,130,3);">Applications</p>
+                                    <p style="padding-left:5%;text-align:justify;">
+                                        <li>Embedded wireless data logging</li>
+                                        <li>LabVIEW Real-Time applications such as entreprise level networks or
+                                            cellular modems</li>
+                                        <li>Integrated Web server to remotely access WSN system data</li>
+                                    </p>
+                                </div>
+                                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="1000ms">
+                        <div class="thumbnail"> <a data-toggle="modal" data-target="#E3631A"> <img src="6.jpg" style="width:130px;"
+                                    alt=""></a>
+                            <div class="caption">
+                                <h4>Node (WSN-3230)</h4>
+                                <p>Manufacturer : <a href="http://www.ni.com/en-in/shop/select/serial-interface-node-for-wsn?modelId=125457"
+                                        target="_blank">National Instruments</a></p>
+                                <p>Model Number : <a href="http://www.ni.com/en-in/shop/select/serial-interface-node-for-wsn?modelId=125457"
+                                        target="_blank">WSN-3230</a></p>
+                                <p> #1</p><br> <a class="button" data-toggle="modal" data-target="#E3631A">Spec &
+                                    Applications <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="E3631A" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h3 class="modal-title" style="color:rgb(245,130,3);">Node (WSN-3230)</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p style="color:rgb(245,130,3);">Specifications</p>
+                                            <p style="padding-left:5%;">
+                                                <li>Serial Programmable WSN node</li>
+                                                <li>1-port RS232</li>
+                                                <li>12-bit analog input output module</li>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6"> <img src="6.jpg" style="width:130px;" alt=""></div>
+                                    </div>
+                                    <p style="color:rgb(245,130,3);">Applications</p>
+                                    <p style="padding-left:5%;text-align:justify;">
+                                        <li>As a mesh router to increase network distance</li>
+                                        <li>To connect more nodes to gateway</li>
+                                    </p>
+                                </div>
+                                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="1500ms">
+                        <div class="thumbnail"> <a data-toggle="modal" data-target="#33500B"> <img src="7.jpg" style="width:135px;"
+                                    alt=""></a>
+                            <div class="caption">
+                                <h4>Node (WSN-3214)</h4>
+                                <p>Manufacturer : <a href="http://www.ni.com/en-in/shop/select/strain-bridge-node-for-wsn?modelId=125453"
+                                        target="_blank">National Instruments</a></p>
+                                <p>Model Number : <a href="http://www.ni.com/en-in/shop/select/strain-bridge-node-for-wsn?modelId=125453"
+                                        target="_blank">WSN-3214</a></p>
+                                <p> #1</p><br> <a class="button" data-toggle="modal" data-target="#33500B">Spec &
+                                    Applications <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="33500B" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title" style="color:rgb(245,130,3);">Node (WSN-3214)</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p style="color:rgb(245,130,3);">Specifications</p>
+                                            <p style="padding-left:5%;">
+                                                <li>Four analog input channels that support quarter/half/full bridge
+                                                    completion, strain gauge, and ratiometric measurements</li>
+                                                <li>Hardware-time waveform acquisition, with sample rates up to
+                                                    1kS/s/channel</li>
+                                                <li>Ideal for wireless structural health monitoring applications</li>
+                                                <li>Battery-powered by 4 AA alkaline cells, with up to three-year
+                                                    battery life</li>
+                                                <li>Supports battery back-up</li>
+                                                <li>5 - 30V external power input, ideally suited for energy harvesting
+                                                    applications</li>
+                                                <li>Two digital I/O channels</li>
+                                                <li>-40 to 70°C temperature rating</li>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6"> <img src="7.jpg" style="width:140px;" alt=""></div>
+                                    </div>
+                                    <p style="color:rgb(245,130,3);">Applications</p>
+                                    <p style="padding-left:5%;text-align:justify;">
+                                        <li>Environmental monitoring</li>
+                                        <li>Energy monitoring</li>
+                                        <li>Building monitoring</li>
+                                        <li>Structural health monitoring</li>
+                                        <li>Distributed temperature monitoring</li>
+                                        <li>Transportation</li>
+                                        <li>Industrial monitoring</li>
+                                    </p>
+                                </div>
+                                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="1500ms">
+                        <div class="thumbnail"> <a data-toggle="modal" data-target="#PA1000"> <img src="10.jpg" style="width:98px;"
+                                    alt=""></a>
+                            <div class="caption">
+                                <h4>Node (WSN-3226)</h4>
+                                <p>Manufacturer : <a href="http://www.ni.com/en-in/support/model.wsn-3226.html" target="_blank">National
+                                        Instruments</a></p>
+                                <p>Model Number : <a href="http://www.ni.com/en-in/support/model.wsn-3226.html" target="_blank">WSN-3226</a></p>
+                                <p> #1</p><br> <a class="button" data-toggle="modal" data-target="#PA1000">Spec &
+                                    Applications <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="PA1000" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title" style="color:rgb(245,130,3);">Node (WSN-3226)</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p style="color:rgb(245,130,3);">Specifications</p>
+                                            <p style="padding-left:5%;">
+                                                <li>Four analog input channels that support quarter/half/full bridge
+                                                    completion, strain gauge, and ratiometric measurements</li>
+                                                <li>Hardware-time waveform acquisition, with sample rates up to
+                                                    1kS/s/channel</li>
+                                                <li>Ideal for wireless structural health monitoring applications</li>
+                                                <li>Battery-powered by 4 AA alkaline cells, with up to three-year
+                                                    battery life</li>
+                                                <li>Supports battery back-up</li>
+                                                <li>5 - 30V external power input, ideally suited for energy harvesting
+                                                    applications</li>
+                                                <li>Two digital I/O channels</li>
+                                                <li>-40 to 70°C temperature rating</li>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6"> <img src="7.jpg" style="width:140px;" alt=""></div>
+                                    </div>
+                                    <p style="color:rgb(245,130,3);">Applications</p>
+                                    <p style="padding-left:5%;text-align:justify;">
+                                        <li>Environmental monitoring</li>
+                                        <li>Energy monitoring</li>
+                                        <li>Building monitoring</li>
+                                        <li>Structural health monitoring</li>
+                                        <li>Distributed temperature monitoring</li>
+                                        <li>Transportation</li>
+                                        <li>Industrial monitoring</li>
+                                    </p>
+                                </div>
+                                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="modal fade" id="16851A" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title" style="color:rgb(245,130,3);">Logic Analyzer</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p style="color:rgb(245,130,3);">Specifications</p>
+                                            <p style="padding-left:5%;"> 2.5 GHz timing capture with up to<li>128 M
+                                                    sample memory</li>
+                                                <li> Up to 1.4 GHz trigger sequencer speed</li>
+                                                <li> Single-ended and differential probing for the widest range of
+                                                    supported technologies</li>
+                                                <li> 80 ps resolution (12.5 GHz) Timing</li>
+                                                <li> Zoom with 256 K samples</li>
+                                                <li> Up to 1.4 Gbps state data rate tracks</li>
+                                                <li> high speed parallel and serial buses</li>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6"> <img src="14.jpg" style="width:195px;" alt=""></div>
+                                    </div>
+                                    <p style="color:rgb(245,130,3);">Applications</p>
+                                    <p style="padding-left:5%;text-align:justify;">
+                                        <li>Correlate a large number of digital signals in single display for flow
+                                            analysis in IC</li>
+                                        <li> Investigate the system operation for Interrupt trigger</li>
+                                        <li> Detect timing violations with clock frequency</li>
+                                        <li> Trace embedded software operation</li>
+                                        <li> Protocol analysis in automobile signal BUS</li>
+                                    </p>
+                                </div>
+                                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row"></div>
+        <div id="5">
+            <h2 style="color:rgb(245,130,3);background:#f5f5f5;padding-left:2%;padding:8px;" class="wow fadeInUp">PCI
+                eXtensions for Instrumentation (PXIe)</h2>
+            <div id="scope">
+                <div class="row">
+                    <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="1000ms">
+                        <div class="thumbnail"> <a data-toggle="modal" data-target="#RS300"> <img src="15.jpg" style="width:250px;"
+                                    alt=""></a>
+                            <div class="caption">
+                                <h4>PXIe -1071</h4>
+                                <p>Manufacturer : <a href="http://www.ni.com/en-in/support/model.pxie-1071.html" target="_blank">National
+                                        Instruments</a></p>
+                                <p> #1</p><br> <a class="button" data-toggle="modal" data-target="#RS300">Spec &
+                                    Applications <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="RS300" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title" style="color:rgb(245,130,3);">PXIe -1071</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p style="color:rgb(245,130,3);">Specifications</p>
+                                            <p style="padding-left:5%;">
+                                                <li>3 hybrid slots</li>
+                                                <li>230 W total power available from 0 to 50 °C</li>
+                                                <li>High performance - up to 1 GB/s per-slot dedicated bandwidth and 3
+                                                    GB/s system bandwidth</li>
+                                                <li>Compact and lightweight PXI chassis, 13.1 lb (5.94 kg)</li>
+                                                <li>Compatibility with PXI, PXI Express, CompactPCI, and CompactPCI
+                                                    Express modules</li>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6"> <img src="15.jpg" style="width:200px;" alt=""></div>
+                                    </div>
+                                    <p style="color:rgb(245,130,3);">Applications</p>
+                                    <p style="padding-left:5%;text-align:justify;">
+                                        <li>High-bandwidth backplane to meet a wide range of high-performance test and
+                                            measurement application needs</li>
+                                        <li>The NI PXIe-1071 accepts PXI Express modules or standard PXI
+                                            hybrid-compatible modules in every peripheral slot</li>
+                                    </p>
+                                </div>
+                                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="1000ms">
+                        <div class="thumbnail"> <a data-toggle="modal" data-target="#Rr"> <img src="16.jpg" style="width:223px;"
+                                    alt=""></a>
+                            <div class="caption">
+                                <h4>PXIe -8135</h4>
+                                <p>Manufacturer : <a href="http://www.ni.com/en-in/support/model.pxie-8135.html" target="_blank">National
+                                        Instruments</a></p>
+                                <p> #1</p><br> <a class="button" data-toggle="modal" data-target="#Rr">Spec &
+                                    Applications <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="Rr" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title" style="color:rgb(245,130,3);">PXIe-8135</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p style="color:rgb(245,130,3);">Specifications</p>
+                                            <p style="padding-left:5%;">
+                                                <li>Intel Core i7</li>
+                                                <li>2.3 GHZ Quad-core PXI controller</li>
+                                                <li>x2 10/1000 Gigabit Ethernet ports</li>
+                                                <li>x2 SuperSpeed USB ports</li>
+                                                <li>x4 High-Speed USB ports</li>
+                                                <li>Other Serial/Peripheral I/O</li>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6"> <img src="16.jpg" style="width:200px;" alt=""></div>
+                                    </div>
+                                    <p style="color:rgb(245,130,3);">Applications</p>
+                                    <p style="padding-left:5%;text-align:justify;">
+                                        <li>Building Hybrid Test Systems</li>
+                                        <li>Dual Monitor Support</li>
+                                        <li>Extended Temperature and 24/7 Operation Option</li>
+                                        <li>Hard-Drive-Based Recovery Image</li>
+                                        <li>In-ROM Memory and Hard-Drive Diagnostics</li>
+                                    </p>
+                                </div>
+                                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="1000ms">
+                        <div class="thumbnail"> <a data-toggle="modal" data-target="#RS300"> <img src="17.jpg" style="width:215px;"
+                                    alt=""></a>
+                            <div class="caption">
+                                <h4>PXIe-6361</h4>
+                                <p>Manufacturer : <a href="http://www.ni.com/en-in/support/model.pxie-6361.html" target="_blank">National
+                                        Instruments</a></p>
+                                <p> #1</p><br> <a class="button" data-toggle="modal" data-target="#R3">Spec &
+                                    Applications <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="R3" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title" style="color:rgb(245,130,3);">PXIe-6361</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p style="color:rgb(245,130,3);">Specifications</p>
+                                            <p style="padding-left:5%;">
+                                                <li>Number of channels : 8 differential or 16 single ended</li>
+                                                <li>Single channel maximum : 2.00 MS/s</li>
+                                                <li>Multichannel maximum (aggregate) : 1.00 MS/s</li>
+                                                <li>Timing accuracy : 50 ppm of sample rate</li>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6"> <img src="17.jpg" style="width:200px;" alt=""></div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+                        <div class="thumbnail"> <a data-toggle="modal" data-target="#DSA"> <img src="18.jpg" style="width:200px;"
+                                    alt=""> </a>
+                            <div class="caption">
+                                <h4>PXI-5412</h4>
+                                <p>Manufacturer : <a href="http://www.ni.com/en-in/support/model.pxi-5412.html" target="_blank">National
+                                        Instruments</a></p>
+                                <p> #1</p><br> <a class="button" data-toggle="modal" data-target="#DSA">Spec &
+                                    Applications <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="DSA" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title" style="color:rgb(245,130,3);">PXI-5412</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p style="color:rgb(245,130,3);">Specifications</p>
+                                            <p style="padding-left:5%;">
+                                                <li>20 MHz Bandwidth</li>
+                                                <li>14-Bit PXI Waveform Generator</li>
+                                                <li>Direct Digital Synthesis (DDS)</li>
+                                                <li>Signals Range -6 V to +6V</li>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6"> <img src="18.jpg" style="width:200px;" alt=""></div>
+                                    </div>
+                                    <p style="color:rgb(245,130,3);">Applications</p>
+                                    <p style="padding-left:5%;text-align:justify;">
+                                        <li>Synchronization and Memory Core (SMC) technology</li>
+                                        <li>Temperature Controlling</li>
+                                    </p>
+                                </div>
+                                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+                        <div class="thumbnail"> <a data-toggle="modal" data-target="#DSO-A"> <img src="19.jpg" style="width:200px;"
+                                    alt=""> </a>
+                            <div class="caption">
+                                <h4>PXIe-8234</h4>
+                                <p>Manufacturer : <a href="http://www.ni.com/en-in/support/model.pxie-8234.html" target="_blank">National
+                                        Instruments</a></p>
+                                <p> #1</p><br> <a class="button" data-toggle="modal" data-target="#DSO-A">Spec &
+                                    Applications <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="DSO-A" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h3 class="modal-title" style="color:rgb(245,130,3);">PXIe-8234</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p style="color:rgb(245,130,3);">Specifications</p>
+                                            <p style="padding-left:5%;">
+                                                <li>NI Vision Acquisition Software</li>
+                                                <li>Full Gigabit Ethernet bandwidth</li>
+                                                <li>Easy-to-use functions & programs</li>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6"> <img src="19.jpg" style="width:200px;" alt=""></div>
+                                    </div>
+                                    <p style="color:rgb(245,130,3);">Applications</p>
+                                    <p style="padding-left:5%;text-align:justify;">
+                                        <li>In Vision Acquistion Software</li>
+                                        <li>Ethernet Interface Module</li>
+                                    </p>
+                                </div>
+                                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="6">
+            <h2 style="color:rgb(245,130,3);background:#f5f5f5;padding-left:2%;padding:8px;" class="wow fadeInUp">Compact
+                Vision System (CVS)</h2>
+            <div id="scope">
+                <div class="row">
+                    <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+                        <div class="thumbnail"> <a data-toggle="modal" data-target="#SA"> <img src="20.jpg" style="width:200px;"
+                                    alt=""> </a>
+                            <div class="caption">
+                                <h4>CVS-1459RT</h4>
+                                <p>Manufacturer : <a href="http://www.ni.com/en-in/support/model.cvs-1459-bundle.html"
+                                        target="_blank">National Instruments</a></p>
+                                <p> #1</p><br> <a class="button" data-toggle="modal" data-target="#SA">Spec &
+                                    Applications <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="SA" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title" style="color:rgb(245,130,3);">CVS-1459RT</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p style="color:rgb(245,130,3);">Specifications</p>
+                                            <p style="padding-left:5%;">
+                                                <li>1.91GHz Quad core Intel Atom</li>
+                                                <li>Windows Embedded Controller</li>
+                                                <li>1 Ethernet Port</li>
+                                                <li>4 USB Port</li>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6"> <img src="20.jpg" style="width:200px;" alt=""></div>
+                                    </div>
+                                    <p style="color:rgb(245,130,3);">Applications</p>
+                                    <p style="padding-left:5%;text-align:justify;">
+                                        <li>Vision Builder AI application development software</li>
+                                    </p>
+                                </div>
+                                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+                        <div class="thumbnail"> <a data-toggle="modal" data-target="#SaA"> <img src="21.png" style="width:225px;"
+                                    alt=""> </a>
+                            <div class="caption">
+                                <h4>CVS I/O Cable</h4>
+                                <p>Manufacturer : <a href="https://graftek.biz/products/national-instruments-156083-03-cvs-i-slash-o-cable-44-pin-hdsub-male-to-pigtail-3-m"
+                                        target="_blank">National Instruments</a></p>
+                                <p> #1</p><br> <a class="button" data-toggle="modal" data-target="#SaA">Spec &
+                                    Applications <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="SaA" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title" style="color:rgb(245,130,3);">CVS I/O Cable</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p style="color:rgb(245,130,3);">Specifications</p>
+                                            <p style="padding-left:5%;">
+                                                <li>CVS I/O Cable</li>
+                                                <li>44-Pin HDSUB Male to Pigtail</li>
+                                                <li>3 m</li>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6"> <img src="21.png" style="width:200px;" alt=""></div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="7">
+            <h2 style="color:rgb(245,130,3);background:#f5f5f5;padding-left:2%;padding:8px;" class="wow fadeInUp">NI
+                ELVIS II Engineering Lab Workstation</h2>
+            <div id="scope"></div>
+            <div class="row">
+                <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+                    <div class="thumbnail"> <a data-toggle="modal" data-target="#SpA"> <img src="22.jpg" style="width:200px;"
+                                alt=""> </a>
+                        <div class="caption">
+                            <h4>NI ELVIS II</h4>
+                            <p>Manufacturer : <a href="http://www.ni.com/en-us/support/model.ni-elvis-ii.html" target="_blank">National
+                                    Instruments</a></p>
+                            <p> #1</p><br> <a class="button" data-toggle="modal" data-target="#SpA">Spec & Applications
+                                <i class="fa fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="SpA" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title" style="color:rgb(245,130,3);">CVS-1459RT</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p style="color:rgb(245,130,3);">Specifications</p>
+                                        <p style="padding-left:5%;">
+                                            <li>One RS232 port and two digital I/O lines</li>
+                                            <li>User-selectable baud rates, parity bits, stop bits, and flow control</li>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6"> <img src="22.jpg" style="width:200px;" alt=""></div>
+                                </div>
+                                <p style="color:rgb(245,130,3);">Applications</p>
+                                <p style="padding-left:5%;text-align:justify;">
+                                    <li>Programmable, autonomous interface to serial sensors, instruments, and control
+                                        boards</li>
+                                </p>
+                            </div>
+                            <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="8">
+            <h2 style="color:rgb(245,130,3);background:#f5f5f5;padding-left:2%;padding:8px;" class="wow fadeInUp">Stratom
+                Control Area Network (CAN) for myRIO</h2>
+            <div id="scope"></div>
+            <div class="row">
+                <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+                    <div class="thumbnail"> <a data-toggle="modal" data-target="#SpaA"> <img src="23.jpg" style="width:165px;"
+                                alt=""> </a>
+                        <div class="caption">
+                            <h4>Stratom CAN Adapter</h4>
+                            <p>Manufacturer : <a href="http://sine.ni.com/nips/cds/view/p/lang/en/nid/212740" target="_blank">National
+                                    Instruments</a></p>
+                            <p> #2</p><br> <a class="button" data-toggle="modal" data-target="#SpaA">Spec &
+                                Applications <i class="fa fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="SpaA" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title" style="color:rgb(245,130,3);">Stratom CAN Adapter</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p style="color:rgb(245,130,3);">Specifications</p>
+                                        <p style="padding-left:5%;">
+                                            <li>CAN 2.0 interface for myRIO MXP connectors</li>
+                                            <li>Includes software API (see Resources tab)</li>
+                                            <li>Offers out-of-the-box software examples</li>
+                                            <li>Allows students to communicate with industrial CAN devices/sensors</li>
+                                            <li>Minimizes prototype time because of intuitive software API</li>
+                                            <li>Enhances ability to convey industrial CAN protocol</li>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6"> <img src="23.jpg" style="width:150px;" alt=""></div>
+                                </div>
+                                <p style="color:rgb(245,130,3);">Applications</p>
+                                <p style="padding-left:5%;text-align:justify;">
+                                    <li>CAN bus interface with myRIO</li>
+                                </p>
+                            </div>
+                            <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="1000ms">
+                    <div class="thumbnail"> <a data-toggle="modal" data-target="#SpaAa"> <img src="24.jpg" style="width:270px;"
+                                alt=""> </a>
+                        <div class="caption">
+                            <h4>Stratom X-HUB</h4>
+                            <p>Manufacturer : <a href="http://sine.ni.com/nips/cds/view/p/lang/en/nid/213322" target="_blank">National
+                                    Instruments</a></p>
+                            <p> #2</p><br> <a class="button" data-toggle="modal" data-target="#SpaAa">Spec &
+                                Applications <i class="fa fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="SpaAa" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title" style="color:rgb(245,130,3);">Stratom X-HUB</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p style="color:rgb(245,130,3);">Specifications</p>
+                                        <p style="padding-left:5%;">
+                                            <li>Seamlessly adds two extra USB ports and one Ethernet port to myRIO</li>
+                                            <li>The myRIO power cable plugs directly into X-HUB to power both X-HUB and
+                                                myRIO</li>
+                                            <li>Quick and easy set up</li>
+                                            <li>Ideal for USB vision projects with myRIO</li>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6"> <img src="24.jpg" style="width:200px;" alt=""></div>
+                                </div>
+                                <p style="color:rgb(245,130,3);">Applications</p>
+                                <p style="padding-left:5%;text-align:justify;">
+                                    <li>USB and Ethernet hub for myRIO</li>
+                                </p>
+                            </div>
+                            <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="9">
+            <h2 style="color:rgb(245,130,3);background:#f5f5f5;padding-left:2%;padding:8px;" class="wow fadeInUp">Universal
+                Software Radio Peripheral (USRP)</h2>
+            <div id="scope"></div>
+            <div class="row">
+                <div class="col-md-4 wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+                    <div class="thumbnail"> <a data-toggle="modal" data-target="#SpsaA"> <img src="25.jpg" style="width:165px;"
+                                alt=""> </a>
+                        <div class="caption">
+                            <h4>NI USRP-2900</h4>
+                            <p>Manufacturer : <a href="http://www.ni.com/en-us/support/model.usrp-2900.html" target="_blank">National
+                                    Instruments</a></p>
+                            <p> #2</p><br> <a class="button" data-toggle="modal" data-target="#SpsaA">Spec &
+                                Applications <i class="fa fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="SpsaA" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title" style="color:rgb(245,130,3);">Stratom CAN Adapter</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p style="color:rgb(245,130,3);">Specifications</p>
+                                        <p style="padding-left:5%;">
+                                            <li>1.7MHz Oscillascope Maximum Frequency</li>
+                                            <li>Frequency ranges up to 6 GHz with up to 56 MHz of instantaneous
+                                                bandwidth</li>
+                                            <li>Circuits on a detachable protoboard</li>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6"> <img src="25.jpg" style="width:150px;" alt=""></div>
+                                </div>
+                                <p style="color:rgb(245,130,3);">Applications</p>
+                                <p style="padding-left:5%;text-align:justify;">
+                                    <li>White space</li>
+                                    <li>Broadcast FM</li>
+                                    <li>Low-power unlicensed device (ISM) bands</li>
+                                    <li>Sensor networks and amateur radio</li>
+                                </p>
+                            </div>
+                            <div class="modal-footer"> <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <section id="lab">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="caption">
+                        <h2>Labs</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="thumbnail"> <a href="../electronics/"> <img src="../img/icons/ico1.jpg" alt="">
+                            <p>Electronics</p>
+                        </a></div>
+                    <div class="thumbnail"> <a href="../iot/"> <img src="../img/icons/ico2.png" alt="">
+                            <p>IoT</p>
+                        </a></div>
+                    <div class="thumbnail"> <a href="../lorawan/"> <img src="../img/icons/ico3.png" alt="">
+                            <p>LoRaWAN</p>
+                        </a></div>
+                    <div class="thumbnail"> <a href="../robotics/"> <img src="../img/icons/ico5.svg" alt="">
+                            <p>Robotics</p>
+                        </a></div>
+                    <div class="thumbnail"> <a href="../drone/"> <img src="../img/icons/ico6.png" alt="">
+                            <p>Drone</p>
+                        </a></div>
+                    <div class="thumbnail"> <a href="../dfab/"> <img src="../img/icons/ico7.ico" alt="">
+                            <p>DFab</p>
+                        </a></div>
+                    <div class="thumbnail"> <a href="../aiml/"> <img src="../img/icons/ico8.png" alt="">
+                            <p>AI/ML</p>
+                        </a></div>
+                    <div class="thumbnail"> <a href="../arvr/"> <img src="../img/icons/ico9.png" alt="">
+                            <p>AR/VR</p>
+                        </a></div>
+                    <div class="thumbnail"> <a href="../app/"> <img src="../img/icons/ico10.png" alt="">
+                            <p>App</p>
+                        </a></div>
+                </div>
+            </div>
+        </section>
+        <hr>
+    </div>
+   
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/wow.min.js"></script>
+    <script type="text/javascript" src="../js/mousescroll.js"></script>
+    <script type="text/javascript" src="../js/smoothscroll.js"></script>
+    <script type="text/javascript" src="../js/lightbox.min.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
+</body>
+
+</html>
