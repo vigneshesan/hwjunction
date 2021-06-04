@@ -1,0 +1,866 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%
+}
+
+html {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif
+}
+
+body {
+    width: 100%;
+    text-rendering: optimizelegibility
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 100;
+    color: #17191a
+}
+
+h3 {
+    font-size: 24px
+}
+
+p {
+    font-size: 16px
+}
+
+.h5 {
+    font-weight: 500
+}
+
+.button {
+    color: #f15a22;
+    background: rgba(241, 90, 34, 0.1);
+    border-color: transparent
+}
+
+.button:hover {
+    color: #fff;
+    background: #f15a22;
+    border-color: transparent;
+    -webkit-box-shadow: 0 6px 20px 0 rgba(241, 90, 34, 0.19);
+    box-shadow: 0 6px 20px 0 rgba(241, 90, 34, 0.19);
+    -webkit-transform: translateY(-0.4px);
+    -ms-transform: translateY(-0.4px);
+    transform: translateY(-0.4px)
+}
+
+@media(max-width:800px) {
+    .button {
+        margin-left: 20px
+    }
+}
+
+.u-btn-wide {
+    min-width: 9.6875rem;
+    padding: 12px 0;
+    font-weight: bold;
+    font-size: 15px
+}
+
+.u-media-player__icon {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 3.75rem;
+    height: 3.75rem;
+    font-size: .8125rem;
+    border-radius: 50%;
+    color: #ed1d24;
+    background-color: rgba(237, 29, 36, 0.1);
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+.u-media-player__icon:hover {
+    background-color: #ed1d24
+}
+
+.u-media-player__icon:hover .u-media-player__icon-inner {
+    color: #fff
+}
+
+.u-media-player__icon-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin-left: .125rem;
+    color: #ed1d24
+}
+
+.title-f {
+    color: #ed1d24;
+    font-weight: 500
+}
+
+.video {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1
+}
+
+.video.move {
+    position: absolute;
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+    top: 150px;
+    left: 750px;
+    right: 0;
+    width: 500px;
+    height: 500px
+}
+
+.navbar {
+    background-color: #ffffff!important
+}
+
+nav {
+    height: 80px;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s
+}
+
+nav .nav-link {
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 16.5px
+}
+
+nav .navbar-brand {
+    max-width: 200px
+}
+
+nav .navbar-brand img {
+    width: 200px
+}
+
+#one {
+    width: 100%;
+    height: 100vh
+}
+
+#one .main-content {
+    padding-top: 60%
+}
+
+#one .main-content h1 {
+    font-size: 90px;
+    font-weight: 400
+}
+
+#one .main-content p {
+    color: #77838f;
+    line-height: 1.7;
+    padding: 10px 0
+}
+
+#one .main-content .text-dark {
+    font-weight: 550
+}
+
+#one .main-content img {
+    width: 400px;
+    padding-left: 0
+}
+
+#one .content-right-video .video-inner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 105.5px;
+    width: 100%
+}
+
+.text-dark {
+    font-weight: 400
+}
+
+#two {
+    padding-top: 2.125rem;
+    padding-bottom: 8.125rem
+}
+
+#two .u-label {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.3;
+    padding: .625rem 1.125rem;
+    border-radius: 6.1875rem;
+    -webkit-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+    transition: .2s ease-in-out
+}
+
+#two .u-label--sm {
+    font-size: .95rem;
+    padding: .5rem 1rem
+}
+
+#two .u-label--success {
+    color: #ed1d24;
+    background-color: rgba(237, 29, 36, 0.1)
+}
+
+#two h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.7
+}
+
+#two p {
+    color: #77838f;
+    line-height: 1.7
+}
+
+#two .mb-7 {
+    margin-bottom: 3rem
+}
+
+#two .u-icon {
+    position: relative;
+    z-index: 1;
+    line-height: .7;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 2.125rem;
+    height: 2.125rem;
+    font-size: .9375rem;
+    border-radius: .25rem;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out
+}
+
+#two .u-icon-danger--air {
+    color: #de4437;
+    background: rgba(222, 68, 55, 0.1)
+}
+
+#two .u-icon-primary--air {
+    color: #fcaf17;
+    background: rgba(252, 175, 23, 0.1)
+}
+
+#two .u-icon-success--air {
+    color: #f15a22;
+    background: rgba(241, 90, 34, 0.1)
+}
+
+#two .u-icon--xl {
+    width: 5rem;
+    height: 5rem;
+    font-size: 3rem;
+    border-radius: .25rem
+}
+
+#two .u-icon__inner-bottom-minus {
+    top: 90%
+}
+
+#two .u-icon__inner {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+#two .font-weight-normal {
+    line-height: 2.5
+}
+
+#two .labs .runCategory {
+    background: #fff url("../image/toolsprite.png") repeat;
+    background-position: 0 0;
+    background-size: 100vw auto;
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    -webkit-animation: slideAcross 45s linear infinite;
+    animation: slideAcross 45s linear infinite;
+    padding: 1.5rem
+}
+
+#three {
+    padding-top: 5.125rem;
+    padding-bottom: 8.125rem;
+    background-color: #fff
+}
+
+#three .u-label {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.3;
+    padding: .625rem 1.125rem;
+    border-radius: 6.1875rem;
+    -webkit-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+    transition: .2s ease-in-out
+}
+
+#three .u-label--sm {
+    font-size: .95rem;
+    padding: .5rem 1rem
+}
+
+#three .u-label--success {
+    color: #f15a22;
+    font-weight: 500;
+    background-color: rgba(241, 90, 34, 0.3)
+}
+
+#three h2 {
+    font-size: 2.5rem;
+    line-height: 1.2
+}
+
+#three p {
+    color: #17191a;
+    line-height: 1.7
+}
+
+#three .mb-7 {
+    margin-bottom: 3rem
+}
+
+#three .first-col {
+    padding: 4rem
+}
+
+#three .first-col h3 {
+    font-size: 2.5rem
+}
+
+#three .second-col {
+    background: transparent
+}
+
+#three .second-col .video-inner {
+    width: 100%;
+    height: 350px;
+    margin-top: 50px
+}
+
+#four {
+    padding-top: 8.125rem;
+    padding-bottom: 8.125rem;
+    background: #fff
+}
+
+#four h4 {
+    font-weight: 500;
+    color: #ed1d24
+}
+
+#four h3 {
+    font-size: 2.5rem;
+    line-height: 1.2
+}
+
+#four p {
+    margin: 30px 0;
+    line-height: 1.7
+}
+
+#four .right-img img {
+    width: 100%;
+    -webkit-animation: popup 8s infinite;
+    animation: popup 8s infinite
+}
+
+#five {
+    padding-top: 5.125rem;
+    padding-bottom: 8.125rem;
+    background: #f1f1f1;
+    background-image: url("../image/bg-image.jpg");
+    background-size: cover
+}
+
+#five h4 {
+    font-weight: 500;
+    color: #ed1d24;
+    margin: 30px 0
+}
+
+#five h3 {
+    font-size: 2.5rem;
+    margin: 20px 0
+}
+
+#five p {
+    margin: 15px 0;
+    line-height: 1.7
+}
+
+#five .u-label {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.3;
+    padding: .625rem 1.125rem;
+    border-radius: 6.1875rem;
+    -webkit-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+    transition: .2s ease-in-out
+}
+
+#five .u-label--sm {
+    font-size: .95rem;
+    padding: .5rem 1rem
+}
+
+#five .u-label--success {
+    color: #f15a22;
+    background-color: rgba(241, 90, 34, 0.1)
+}
+
+#five h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.7;
+    padding-bottom: 40px
+}
+
+#five .card {
+    height: 30rem;
+    padding: 20px
+}
+
+#footer {
+    padding-bottom: 3%;
+    padding-top: 5%;
+    background-color: #292929;
+    color: #fff
+}
+
+#footer p i {
+    color: #fff
+}
+
+#footer p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500
+}
+
+#footer p a:hover {
+    color: #f15927
+}
+
+#footer p {
+    font-size: 16px!important;
+    font-weight: 700
+}
+
+#footer .social a {
+    padding: 10px;
+    color: #fff;
+    font-size: 20px
+}
+
+#footer .footer-padding {
+    padding-left: 14%
+}
+
+#footer .footer-padding p {
+    color: #fff
+}
+
+#footer .colss3 p {
+    color: #fff
+}
+
+#footer .fab:hover {
+    opacity: .8;
+    -webkit-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    transform: translateY(-2px);
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s
+}
+
+.fab {
+    padding: 8px;
+    font-size: 15px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #fff
+}
+
+.fa-facebook-f:hover {
+    background: #3b5998;
+    color: white;
+    border: 1px solid transparent
+}
+
+.fa-twitter:hover {
+    background: #55acee;
+    color: white;
+    border: 1px solid transparent
+}
+
+.fa-youtube:hover {
+    background: #b00;
+    color: white;
+    border: 1px solid transparent
+}
+
+.fa-linkedin-in:hover {
+    background: #007bb5;
+    color: white;
+    border: 1px solid transparent
+}
+
+#labone {
+    background: #fff url("../image/toolsprite.png") repeat;
+    background-position: 0 0;
+    background-size: 100vw auto;
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    -webkit-animation: slideAcross 45s linear infinite;
+    animation: slideAcross 45s linear infinite;
+    padding: 1.5rem;
+    margin-top: 2rem
+}
+
+#labone .inner-container {
+    background: rgba(255, 255, 255, 0.98);
+    max-width: 800px;
+    -webkit-box-shadow: 0 2px 4px rgba(50, 50, 50, 0.1);
+    box-shadow: 0 2px 4px rgba(50, 50, 50, 0.1);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-top: 10rem
+}
+
+#labone .inner-container h2 {
+    margin-bottom: 40px
+}
+
+#labtwo {
+    padding-top: 8.125rem;
+    padding-bottom: 8.125rem
+}
+
+#labtwo .column {
+    display: block;
+    padding: .75rem
+}
+
+#labtwo img {
+    width: 50%
+}
+
+#labtwo h2 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 50px
+}
+
+#labtwo .card-size {
+    display: block;
+    position: relative;
+    padding: 2rem 0;
+    text-align: center
+}
+
+#labtwo .first {
+    background-color: #ed1d24
+}
+
+#labtwo .two {
+    background-color: #f15a22
+}
+
+#labtwo .three {
+    background-color: #fcaf17
+}
+
+#labtwo .four {
+    background-color: #414042
+}
+
+#labtwo .card-content {
+    padding: 1rem
+}
+
+#labtwo .r-2,
+#labtwo .r-3 {
+    padding-top: 2rem
+}
+
+nav.scrollUp {
+    -webkit-animation: slide-down .7s;
+    animation: slide-down .7s;
+    -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3)
+}
+
+@-webkit-keyframes popup {
+    0% {
+        -webkit-transform: translateY(-8%);
+        transform: translateY(-8%)
+    }
+    50% {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%)
+    }
+    100% {
+        -webkit-transform: translateY(-8%);
+        transform: translateY(-8%)
+    }
+}
+
+@keyframes popup {
+    0% {
+        -webkit-transform: translateY(-8%);
+        transform: translateY(-8%)
+    }
+    50% {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%)
+    }
+    100% {
+        -webkit-transform: translateY(-8%);
+        transform: translateY(-8%)
+    }
+}
+
+@-webkit-keyframes slideAcross {
+    0% {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -100vw 0
+    }
+}
+
+@keyframes slideAcross {
+    0% {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -100vw 0
+    }
+}
+
+@-webkit-keyframes slide-down {
+    0% {
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%)
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3)
+    }
+}
+
+@keyframes slide-down {
+    0% {
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%)
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3)
+    }
+}
+
+@media(max-width:800px) {
+    header {
+        display: none
+    }
+    #one {
+        width: 100%;
+        height: 80vh
+    }
+    #one .main-content img {
+        width: 300px;
+        margin-left: 50px
+    }
+    #one .video-inner {
+        display: none
+    }
+    .content-right-video {
+        display: none
+    }
+    p {
+        text-align: center
+    }
+    .runCategory {
+        background: #fff url("../image/toolsprite.png") repeat;
+        background-position: 0 0;
+        background-size: 100vw auto;
+        position: relative;
+        width: 100%;
+        height: 16vh!important;
+        -webkit-animation: slideAcross 45s linear infinite;
+        animation: slideAcross 45s linear infinite;
+        padding: 1.5rem
+    }
+    #three {
+        padding-top: .125rem;
+        padding-bottom: 8.125rem;
+        background-color: #fff
+    }
+    #three .first-col {
+        padding: 3rem
+    }
+    #three .video-inner {
+        display: none
+    }
+    #four {
+        padding-top: .125rem;
+        padding-bottom: 4.125rem;
+        background: #fff;
+        text-align: center
+    }
+    #four .right-img img {
+        margin-top: 80px
+    }
+    #five {
+        padding-bottom: 3.125rem
+    }
+    #five p {
+        text-align: left
+    }
+    #five .col-sm-12 {
+        margin-bottom: 50px
+    }
+    #five .card {
+        height: 35rem;
+        padding: 20px
+    }
+    #footer {
+        text-align: center;
+        padding-bottom: 4rem
+    }
+    #footer .footer-padding {
+        padding-left: 0
+    }
+    #labone {
+        background: #fff url("../image/toolsprite.png") repeat;
+        background-position: 0 0;
+        background-size: 100vw auto;
+        position: relative;
+        width: 100%;
+        height: 50vh;
+        -webkit-animation: slideAcross 45s linear infinite;
+        animation: slideAcross 45s linear infinite;
+        padding: 1.5rem;
+        margin-top: 5rem
+    }
+    #labone .inner-container {
+        background: rgba(255, 255, 255, 0.98);
+        max-width: 800px;
+        -webkit-box-shadow: 0 2px 4px rgba(50, 50, 50, 0.1);
+        box-shadow: 0 2px 4px rgba(50, 50, 50, 0.1);
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        margin-top: 2rem
+    }
+    #labone .inner-container h2 {
+        font-size: 1.5rem
+    }
+    #labtwo h2 {
+        font-size: 1.5rem;
+        line-height: 1.2;
+        text-align: center;
+        padding-bottom: 50px
+    }
+    #labtwo .column a {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+}
+
+@media(min-width:300px) and (max-width:400px) {
+    #one {
+        width: 100%;
+        height: 80vh
+    }
+    #one .main-content img {
+        width: 200px;
+        margin-left: 50px
+    }
+    .u-btn-wide {
+        min-width: 5.6875rem;
+        padding: 10px 0;
+        font-weight: bold;
+        font-size: 12px
+    }
+    .u-media-player__icon {
+        cursor: pointer;
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        width: 2.75rem;
+        height: 2.75rem;
+        font-size: .8125rem;
+        border-radius: 50%;
+        color: #ed1d24;
+        background-color: rgba(237, 29, 36, 0.1);
+        -webkit-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out
+    }
+    #two h2 {
+        font-size: 1.5rem;
+        font-weight: 300;
+        line-height: 1.7
+    }
+    #three h2 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1.5
+    }
+    #three .first-col {
+        padding: 1rem
+    }
+    #four h3 {
+        font-size: 1.5rem
+    }
+    #five h3 {
+        font-size: 1.5rem;
+        margin: 20px 0
+    }
+    #five h4 {
+        font-weight: 500;
+        color: #ed1d24;
+        margin: 15px 0
+    }
+    #five .card {
+        text-align: center
+    }
+    #labtwo a {
+        margin-left: 35%
+    }
+}
